@@ -9,7 +9,7 @@ let departamentoSchema = new Schema({
     },
     id_jefe_de_area: {
         type: Schema.Types.ObjectId,
-        ref: 'JefeÁrea'
+        ref: 'Jefe_De_Área'
     },
     numero_de_empleado: {
         type: Number,
