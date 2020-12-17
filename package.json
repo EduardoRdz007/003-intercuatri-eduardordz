@@ -4,6 +4,7 @@
   "description": "Mi intercuatri",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Eduardo Rodriguez",
@@ -11,6 +12,7 @@
   "dependencies": {
     "body": "^5.1.0",
     "express": "^4.17.1",
+    "mongoose": "^5.11.8",
     "parser": "^0.1.4",
     "underscore": "^1.12.0"
   }
