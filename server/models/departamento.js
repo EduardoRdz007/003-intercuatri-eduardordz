@@ -11,8 +11,8 @@ let departamentoSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: 'Jefe_De_Área'
     },
-    numero_de_empleado: {
-        type: Number,
+    numero_deempleado: {
+        type: String,
         required: true
     },
     extension_tel: {

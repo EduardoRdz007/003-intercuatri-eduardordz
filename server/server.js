@@ -12,6 +12,8 @@ app.use(bodyParser.json())
  
 
 app.use(require('./routes/usuario'));
+app.use(require('./routes/empleado'));
+app.use(require('./routes/departamento'));
 
 app.get('/', function (req, res) {
     res.send('Hola mundo');
@@ -52,6 +54,7 @@ app.put('/usuario', function (req, res){
         nombre: nombre
     })
 })
+
 
 // Conexión a la base de datos Mongoose:
 mongoose.connect('mongodb://localhost:27017/intercuatri', {
